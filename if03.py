@@ -6,4 +6,8 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+    if a>0:
+        return a+1
+    elif a<0:
+        return a-2
+    return 10
